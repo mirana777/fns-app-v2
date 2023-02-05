@@ -29,8 +29,19 @@ PublicResolver: 0xe2c015abb52e22227354f78297f0c2de3807b311
 
 
 ## APP V2
-Source code of APP V2 and commands can be found in [/app](https://github.com/mirana777/fns-app-v2/tree/master/app).
+Source code of APP V2 (upgraded UI/UX) and commands can be found in [/app](https://github.com/mirana777/fns-app-v2/tree/master/app).
 
 ### APP V2 deployed
 
 http://app.filns.domains/
+
+## FNS Lookup
+FNS Lookup is first showcase for how to integrate FNS in a project which integrated FNS on Filfox explorer (FNS registrations, FNS name details, display FNS name instead of address, etc) as the first application scenario of the FNS protocol in Space Warp.
+
+FNS Lookup Key Featrues:
+- Synchronize all FNS-related events and analyze into DB, providing API service
+- Display FNS Primary name resolution in address details page of Filfox
+- Display all FNS registrations and name details in Lookup main page
+- Support FNS name search and both t4 and 0x address search in FNS Lookup
+
+Source code of FNS Lookup API server can be found in [/lookup](https://github.com/mirana777/fns-app-v2/tree/master/lookup).
